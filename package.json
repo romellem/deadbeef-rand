@@ -1,0 +1,26 @@
+{
+  "name": "deadbeef-rand",
+  "version": "0.0.1",
+  "description": "A simple, seed-able pseudo-random number generator (PRNG).",
+  "main": "index.js",
+  "contributors": [
+    "Matt Wade",
+    "Robbert Haarman"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romellem/deadbeef-rand.git"
+  },
+  "homepage": "https://github.com/romellem/deadbeef-rand",
+  "keywords": [
+    "random",
+    "number",
+    "generator",
+    "rng",
+    "prng",
+    "seedrandom",
+    "distribution",
+    "pseudorandom"
+  ],
+  "license": "0BSD"
+}
