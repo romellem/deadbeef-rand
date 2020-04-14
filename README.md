@@ -23,6 +23,10 @@ yarn add deadbeef-rand
 
 ### Usage
 
+`DeadbeefRand` is written in a [UMD](https://github.com/umdjs/umd) pattern and so can be used in both Node and Browser environments.
+
+#### Node
+
 ```js
 import DeadbeefRand from 'deadbeef-rand';
 /* Or in a CJS environment: */
@@ -33,6 +37,16 @@ let deadbeef = new DeadbeefRand(4);
 
 // Generate a pseudo-random number.
 let n = deadbeef.rand();
+```
+
+#### Browser
+
+```html
+<script src="https://unpkg.com/deadbeef-rand@1.0.0/index.js" integrity="sha384-+M7ady7SKCjKupbm8bWdNxz/FoEDVFh1rJ3M5FatKgGNb+cW+Z8uy9tpmv15XFsv" crossorigin="anonymous"></script>
+<script>
+  var deadbeef = new DeadbeefRand(4);
+  var n = deadbeef.rand();
+</script>
 ```
 
 ### API
